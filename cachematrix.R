@@ -1,9 +1,10 @@
 ## Programming Assignment 2
 ## Dorothy Sandefur
 
+## Functions' Descriptions:
 ## makeCacheMatrix & cacheSolve are functions that use inverted special matrix objetcs.
-## Tehse functions are done to reduce computations costs.
-#
+## These functions are done to reduce computations costs.
+
 ##makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
     z <- NULL #will b used to clear cache
